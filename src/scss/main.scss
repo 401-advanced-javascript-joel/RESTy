@@ -1,0 +1,14 @@
+// 1 Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins.scss';
+
+// 2 Base
+@import 'base/base';
+@import 'base/typography';
+
+// 3 Components
+@import 'components/resty';
+
+// 4 Layouts
+@import 'layout/header';
+@import 'layout/footer';
