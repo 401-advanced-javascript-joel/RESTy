@@ -30,4 +30,4 @@ headers or request body. We will be building upon this application in later labs
 
 ### UML
 
-![UML 23](https://raw.githubusercontent.com/401-advanced-javascript-joel/RESTy/lab-23/assets/lab-23.png)
+![UML 23](https://raw.githubusercontent.com/401-advanced-javascript-joel/RESTy/master/assets/lab-23.png)
