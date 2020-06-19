@@ -15,8 +15,10 @@ headers or request body. We will be building upon this application in later labs
 
 ### Links and Resources
 
-- [PR 23](https://github.com/401-advanced-javascript-joel/RESTy/pull/1)
-- [Tests](https://github.com/401-advanced-javascript-joel/RESTy/pull/1/checks)
+- [PR 23](https://github.com/401-advanced-javascript-joel/RESTy/pull/3)
+- [Tests](https://github.com/401-advanced-javascript-joel/RESTy/pull/3/checks)
+- [CodeSandbox](https://codesandbox.io/s/purple-currying-i6hr4)
+- [Github Pages](https://401-advanced-javascript-joel.github.io/RESTy/)
 
 ### Setup
 
