@@ -15,8 +15,8 @@ headers or request body. We will be building upon this application in later labs
 
 ### Links and Resources
 
-- [PR 23]()
-- [Tests]()
+- [PR 23](https://github.com/401-advanced-javascript-joel/RESTy/pull/1)
+- [Tests](https://github.com/401-advanced-javascript-joel/RESTy/pull/1/checks)
 
 ### Setup
 
@@ -28,4 +28,4 @@ headers or request body. We will be building upon this application in later labs
 
 ### UML
 
-![UML 23]()
+![UML 23](https://raw.githubusercontent.com/401-advanced-javascript-joel/RESTy/lab-23/assets/lab-23.png)
