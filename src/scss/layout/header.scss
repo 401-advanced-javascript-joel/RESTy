@@ -1,9 +1,37 @@
 header {
   width: 100vw;
   text-align: center;
-  padding: $padding-lg 0;
-  font-size: $font-size-md;
+  padding: $padding-md;
+  font-size: $font-size-sm;
   color: white;
   background-color: $gray;
-  margin-bottom: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+
+  & nav ul {
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+
+    & li {
+      display: inline;
+      & a:link,
+      & a:visited {
+        display: inline-block;
+        font-weight: 300;
+        padding: 1rem 2rem;
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.4s;
+      }
+
+      & a:hover,
+      & a:active {
+        transform: translateX(-0.5rem);
+      }
+    }
+  }
 }
