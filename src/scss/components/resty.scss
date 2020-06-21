@@ -1,28 +1,52 @@
 .resty {
   flex: 1;
   width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
-  flex-direction: column;
   align-items: stretch;
-  padding-left: 5%;
-  padding-right: 5%;
 
-  & .form {
-    display: flex;
-    font-size: 2rem;
-
-    & input[type='text'] {
-      padding-left: 3px;
-      flex: 1;
+  & .resty-left {
+    width: 25%;
+    padding-left: 5%;
+    max-height: 67.7rem;
+    & .history .body {
+      visibility: hidden;
     }
   }
 
-  & .results {
-    flex: 1;
-    overflow-y: scroll;
-    background-color: $light-gray;
-    max-width: 100%;
-    max-height: 642px;
-    @include insideOutside(0.5rem, 0.5rem 0);
+  & .resty-right {
+    width: 75%;
+    padding-left: 1rem;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-height: 67.7rem;
+
+    & .form {
+      font-size: 2rem;
+      & .form-top {
+        display: flex;
+        margin-bottom: 1rem;
+        & input[type='text'] {
+          padding-left: 3px;
+          flex: 1;
+        }
+      }
+      & .form-bottom {
+        & textarea {
+          width: 100%;
+        }
+      }
+    }
+
+    & .results {
+      flex: 1;
+      overflow-y: scroll;
+      background-color: $light-gray;
+      max-width: 100%;
+      @include insideOutside(0.5rem, 0.5rem 0);
+    }
   }
 }
